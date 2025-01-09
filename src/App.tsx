@@ -1,12 +1,16 @@
-import "./App.css";
+import { useEffect } from "react";
+import "./index.scss";
+import Main from "./components/Main";
 
 function App() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
+
   return (
-    <>
-      <div>
-        <h1>my portfolio</h1>
-      </div>
-    </>
+    <div>
+      <Main />
+    </div>
   );
 }
 
