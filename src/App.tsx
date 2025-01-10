@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import "./index.scss";
-import Main from "./components/Main";
+import { Main, Expertise } from "./components";
+import FadeIn from "./components/FadeIn";
 
 function App() {
   useEffect(() => {
@@ -9,7 +10,10 @@ function App() {
 
   return (
     <div>
-      <Main />
+      <FadeIn>
+        <Main />
+        <Expertise />
+      </FadeIn>
     </div>
   );
 }
