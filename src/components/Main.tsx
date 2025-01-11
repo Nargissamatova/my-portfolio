@@ -9,7 +9,7 @@ function Main() {
       <div className="about-section">
         <div className="image-wrapper">
           <img
-            src="https://avatar.iran.liara.run/public/boy?username=Ash"
+            src="https://media.licdn.com/dms/image/v2/D4D03AQGhO6o1lDtKJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728250381643?e=1741824000&v=beta&t=MH95H7cBwiCP5VQ6O8qG02q8fjwDMgygZp2EFAKs1bw"
             alt="Avatar"
           />
         </div>
@@ -31,7 +31,7 @@ function Main() {
             </a>
           </div>
           <h1>Nargis Samatova</h1>
-          <p>Full Web Developer</p>
+          <p>Full-Stack Web Developer</p>
 
           <div className="mobile_social_icons">
             <a
