@@ -1,10 +1,6 @@
 import "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faReact,
-  faDocker,
-  faPython,
-} from "@fortawesome/free-brands-svg-icons";
+import { faReact, faDocker, faFigma } from "@fortawesome/free-brands-svg-icons";
 import Chip from "@mui/material/Chip";
 import "../assets/styles/Expertise.scss";
 
@@ -15,10 +11,9 @@ const labelsFirst = [
   "HTML5",
   "CSS3",
   "SASS",
-  "Flask",
-  "Python",
+  "Bootstrap",
+  "PHP",
   "SQL",
-  "PostgreSQL",
   "Postman",
 ];
 
@@ -31,18 +26,9 @@ const labelsSecond = [
   "Linux",
   "Snowflake",
   "Pandas",
-  "Selenium",
 ];
 
-const labelsThird = [
-  "OpenAI",
-  "Groq",
-  "LangChain",
-  "Qdrant",
-  "Hugging Face",
-  "LlamaIndex",
-  "Streamlit",
-];
+const labelsThird = ["Figma", "Canva"];
 
 function Expertise() {
   return (
@@ -84,13 +70,13 @@ function Expertise() {
           </div>
 
           <div className="skill">
-            <FontAwesomeIcon icon={faPython} size="3x" />
-            <h3>GenAI & LLM</h3>
+            <FontAwesomeIcon icon={faFigma} size="3x" />
+            <h3>UI/UX Design & Collaboration Tools</h3>
             <p>
-              Stay relevant in the market by leveraging the latest AI models in
-              your projects. I have professional experience building enterprise
-              grade GenAI-enabled solutions to empower intelligent decision
-              making.
+              In addition to technical development, I have a keen eye for design
+              and am proficient in creating polished user interfaces. With tools
+              like Figma and Canva, I work to ensure seamless collaboration and
+              an exceptional user experience in every project.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
