@@ -7,6 +7,7 @@ import {
   Navigation,
   Footer,
   Contact,
+  Project,
 } from "./components";
 import FadeIn from "./components/FadeIn";
 
@@ -20,6 +21,7 @@ function App() {
       setMode("dark");
     }
   };
+  ("");
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -36,6 +38,7 @@ function App() {
         <Main />
         <Expertise />
         <Timeline />
+        <Project />
         <Contact />
         <Footer />
       </FadeIn>

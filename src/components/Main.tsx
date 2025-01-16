@@ -2,7 +2,6 @@ import "../assets/styles/Main.scss";
 
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-
 function Main() {
   return (
     <div className="container">
@@ -31,8 +30,7 @@ function Main() {
             </a>
           </div>
           <h1>Nargis Samatova</h1>
-          <p>Full-Stack Web Developer</p>
-
+          <p className="smooth-appear">Full-Stack Web Developer</p>
           <div className="mobile_social_icons">
             <a
               href="https://github.com/Nargissamatova"
