@@ -10,11 +10,13 @@ const labelsFirst = [
   "JavaScript",
   "HTML5",
   "CSS3",
-  "SASS",
+  "SCSS",
+  "Tailwind CSS",
+  "Material UI",
   "Bootstrap",
   "PHP",
   "SQL",
-  "Postman",
+  "Drupal",
 ];
 
 const labelsSecond = [
@@ -22,28 +24,30 @@ const labelsSecond = [
   "GitHub Actions",
   "Docker",
   "AWS",
-  "Azure",
-  "Linux",
-  "Snowflake",
-  "Pandas",
+  "Jenkins",
+  "SonarCloud",
 ];
 
-const labelsThird = ["Figma", "Canva"];
+const labelsThird = ["Figma", "Canva", "Agile", "Jira", "Trello"];
 
 function Expertise() {
   return (
     <div className="container" id="expertise">
       <div className="skills-container">
-        <h1>Expertise</h1>
+        <h1>My Expertise</h1>
         <div className="skills-grid">
+          {/* Full Stack Web Development */}
           <div className="skill">
             <FontAwesomeIcon icon={faReact} size="3x" />
             <h3>Full Stack Web Development</h3>
             <p>
-              I have built a diverse array of web applications from scratch
-              using modern technologies such as React and Flask. I have a strong
-              proficiency in the SDLC process and frontend + backend
-              development.
+              I develop dynamic and interactive web applications using modern
+              front-end frameworks like <strong>React</strong>. On the back end,
+              I work with technologies such as <strong> PHP</strong> and{" "}
+              <strong>SQL </strong>
+              to build seamless, data-driven solutions. My approach focuses on
+              creating scalable, responsive, and user-friendly applications that
+              deliver smooth and engaging user experiences.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
@@ -53,13 +57,19 @@ function Expertise() {
             </div>
           </div>
 
+          {/* DevOps & Automation */}
           <div className="skill">
             <FontAwesomeIcon icon={faDocker} size="3x" />
             <h3>DevOps & Automation</h3>
             <p>
-              Once the application is built, I help clients set up DevOps
-              testing, CI/CD pipelines, and deployment automation to support the
-              successful Go-Live.
+              I have experience in improving development and deployment
+              workflows through CI/CD pipelines and automating key processes. I
+              work with tools like
+              <strong> Docker</strong> for containerization and utilize{" "}
+              <strong>AWS </strong>
+              for cloud services to create scalable and reliable solutions. I
+              focus on building streamlined, automated environments that enhance
+              efficiency and minimize downtime.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
@@ -69,14 +79,19 @@ function Expertise() {
             </div>
           </div>
 
+          {/* UI/UX Design & Collaboration Tools */}
           <div className="skill">
             <FontAwesomeIcon icon={faFigma} size="3x" />
             <h3>UI/UX Design & Collaboration Tools</h3>
             <p>
-              In addition to technical development, I have a keen eye for design
-              and am proficient in creating polished user interfaces. With tools
-              like Figma and Canva, I work to ensure seamless collaboration and
-              an exceptional user experience in every project.
+              I focus on crafting user-friendly designs that look great and feel
+              intuitive. Using tools like
+              <strong> Figma</strong> and <strong>Canva</strong>, I create
+              interfaces that provide a seamless experience. I also rely on
+              collaboration tools such as <strong>Jira</strong> and
+              <strong> Trello</strong> to stay organized and work effectively
+              with teams, ensuring projects run smoothly and meet user
+              expectations.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
