@@ -21,7 +21,13 @@ function Footer() {
           <LinkedInIcon />
         </a>
       </div>
-      <p>With 💜 by Nargis</p>
+      <p>
+        Email me at{" "}
+        <a href="mailto:nargissamatova16@gmail.com">
+          nargissamatova16@gmail.com
+        </a>
+        . <br /> Developed with 💜 and dedication.
+      </p>
     </footer>
   );
 }
