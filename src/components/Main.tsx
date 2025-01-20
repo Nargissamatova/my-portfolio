@@ -30,7 +30,9 @@ function Main() {
             </a>
           </div>
           <h1>Nargis Samatova</h1>
-          <p className="smooth-appear">Full-Stack Web Developer</p>
+          <p className="smooth-appear">
+            Full-Stack Web Developer | From Learning to Creating
+          </p>
           <div className="mobile_social_icons">
             <a
               href="https://github.com/Nargissamatova"
