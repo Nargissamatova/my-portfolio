@@ -19,6 +19,43 @@
     text-decoration: underline;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
+
+.github-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .github-button {
+      margin-top: 10%;
+      display: inline-flex;
+      align-items: center;
+      background-color: #5000ca;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease;
+      gap: 8px; 
+  
+      svg {
+        width: 20px;
+        height: 20px;
+        fill: currentColor;
+      }
+  
+      &:hover {
+        background-color: #2b0465;
+      }
+  
+      &:active {
+        background-color: #6428be;
+      }
+    }
+  }
+  
   
 .zoom {
     border-radius: 5px;
