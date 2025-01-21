@@ -20,4 +20,4 @@ This portfolio demonstrates my web development expertise and professional journe
 
 ## Demo
 
-You can view the live version of my portfolio here: [Live Portfolio Link](https://github.com/Nargissamatova/my-portfolio)
+You can view the live version of my portfolio here: [Live Portfolio Link]( https://nargissamatova.github.io/my-portfolio)
